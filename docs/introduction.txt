@@ -1,0 +1,47 @@
+=== Week 01: Introduction to Cisco Packet Tracer ===
+
+1. การเปิดใช้งาน Cisco Packet Tracer
+   - เปิดโปรแกรม Cisco Packet Tracer
+   - ทำความคุ้นเคยกับ Interface
+
+2. การเพิ่มอุปกรณ์พื้นฐาน
+   - PC (End Devices)
+   - Switch (Switches)
+   - Router (Routers)
+   - การเชื่อมต่อด้วยสาย (Connections)
+
+3. การตั้งค่า IP Address พื้นฐาน
+   - ไปที่ PC > Desktop > IP Configuration
+   - ตั้งค่า IP Address: 192.168.1.10
+   - ตั้งค่า Subnet Mask: 255.255.255.0
+   - ตั้งค่า Default Gateway: 192.168.1.1
+
+4. คำสั่งพื้นฐานสำหรับ Router
+   - enable (เข้าสู่ privileged mode)
+   - configure terminal (เข้าสู่ global configuration mode)
+   - interface FastEthernet 0/0 (เลือก interface)
+   - ip address 192.168.1.1 255.255.255.0 (ตั้งค่า IP)
+   - no shutdown (เปิดใช้งาน interface)
+   - exit (ออกจาก interface mode)
+   - exit (ออกจาก configuration mode)
+
+5. การตรวจสอบการเชื่อมต่อ
+   - ใช้คำสั่ง ping จาก PC
+   - ไปที่ PC > Desktop > Command Prompt
+   - พิมพ์: ping 192.168.1.1
+   - ตรวจสอบว่าได้รับ reply หรือไม่
+
+6. คำสั่งตรวจสอบพื้นฐาน
+   - show ip interface brief (ดูสถานะ interface)
+   - show running-config (ดูการตั้งค่าปัจจุบัน)
+   - show ip route (ดู routing table)
+
+7. การบันทึกการตั้งค่า
+   - write memory หรือ copy running-config startup-config
+   - เพื่อบันทึกการตั้งค่าไว้
+
+=== Tips ===
+- ใช้ Simulation Mode เพื่อดูการทำงานของ packets
+- ใช้ Physical Mode เพื่อดูโครงสร้างทางกายภาพ
+- ใช้ Help (?) เพื่อดูคำสั่งที่ใช้ได้
+
