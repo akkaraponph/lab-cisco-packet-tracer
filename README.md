@@ -127,7 +127,7 @@ show ip interface brief         # ดูสถานะ interface
 ping [IP]                       # ทดสอบการเชื่อมต่อ
 ```
 
-📂 [ดูรายละเอียดเพิ่มเติม Week 01 →](labs/Week01/README.md) | 📄 [เอกสารคำสั่ง →](docs/introduction.txt)
+📂 [ดูรายละเอียดเพิ่มเติม Week 01 →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/labs/Week01/README.md) | 📄 [เอกสารคำสั่ง →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/docs/introduction.txt)
 
 ---
 
@@ -178,7 +178,7 @@ show ip route                   # ดู routing table
 - ✅ IP Address ถูกตั้งค่าถูกต้อง
 - ✅ Default Gateway ถูกตั้งค่าถูกต้อง
 
-📂 [ดูรายละเอียดเพิ่มเติม Week 02 →](labs/Week02/README.md)
+📂 [ดูรายละเอียดเพิ่มเติม Week 02 →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/labs/Week02/README.md)
 
 ---
 
@@ -265,7 +265,7 @@ debug ip nat                    # debug NAT (ใช้ใน privileged mode)
 - ✅ อุปกรณ์ภายในสามารถเชื่อมต่อภายนอกได้
 - ✅ การ translate IP Address ทำงานถูกต้อง
 
-📂 [ดูรายละเอียดเพิ่มเติม Week 03 →](labs/Week03/README.md)
+📂 [ดูรายละเอียดเพิ่มเติม Week 03 →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/labs/Week03/README.md)
 
 ---
 
@@ -323,7 +323,7 @@ ping [IP]
 traceroute [IP]
 ```
 
-📂 [ดูรายละเอียดเพิ่มเติม Week 04 →](labs/Week04/README.md)
+📂 [ดูรายละเอียดเพิ่มเติม Week 04 →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/labs/Week04/README.md)
 
 ---
 
@@ -379,7 +379,7 @@ show ip route
 ping [IP Address]
 ```
 
-📂 [ดูรายละเอียดเพิ่มเติม Week 06 →](labs/Week06/README.md)
+📂 [ดูรายละเอียดเพิ่มเติม Week 06 →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/labs/Week06/README.md)
 
 ---
 
@@ -493,7 +493,7 @@ show interfaces trunk        # ดู trunk port
 - ✅ อุปกรณ์ใน VLAN ต่างกันไม่สามารถสื่อสารกันได้ (ถ้าไม่มี Router)
 - ✅ Inter-VLAN Routing ทำงานถูกต้อง (ถ้ามี Router)
 
-📂 [ดูรายละเอียดเพิ่มเติม Week 07 →](labs/Week07/README.md) | 📄 [คำสั่ง VLAN →](docs/vlan.txt)
+📂 [ดูรายละเอียดเพิ่มเติม Week 07 →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/labs/Week07/README.md) | 📄 [คำสั่ง VLAN →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/docs/vlan.txt)
 
 ---
 
@@ -550,7 +550,7 @@ ping [IP]
 traceroute [IP]
 ```
 
-📂 [ดูรายละเอียดเพิ่มเติม Week 08 →](labs/Week08/README.md)
+📂 [ดูรายละเอียดเพิ่มเติม Week 08 →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/labs/Week08/README.md)
 
 ---
 
@@ -610,7 +610,7 @@ ping [IP Address]
 traceroute [IP Address]
 ```
 
-📂 [ดูรายละเอียดเพิ่มเติม Week 09 →](labs/Week09/README.md)
+📂 [ดูรายละเอียดเพิ่มเติม Week 09 →](https://github.com/akkaraponph/lab-cisco-packet-tracer/blob/main/labs/Week09/README.md)
 
 ---
 
